@@ -1,7 +1,8 @@
 //ES6
 import React from 'react';
 
-class Component1 extends React.Component {
+class Test extends React.Component {
+
     render() {
         return (
             <div className="App">
@@ -10,7 +11,7 @@ class Component1 extends React.Component {
                 </div>
                 <p className="App-intro">
                     To get started, edit <code>src/App.js</code> and save to reload.
-                    <button>测试</button>
+                    <button  onClick={this.handleClick}>测试</button>
                 </p>
             </div>
         )
